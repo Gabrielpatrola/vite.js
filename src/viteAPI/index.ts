@@ -2,7 +2,7 @@ import { Contracts } from '~@vite/vitejs-constant';
 import { checkParams, isArray, blake2bHex } from '~@vite/vitejs-utils';
 import { isValidAddress, AddressType, getOriginalAddressFromAddress } from '~@vite/vitejs-wallet/address';
 import { decodeParameters, encodeFunctionCall, getAbiByType } from '~@vite/vitejs-abi';
-import { Default_Contract_TransactionType, encodeContractList, getTransactionType, decodeContractAccountBlock } from '~@vite/vitejs-accountblock/utils';
+import { Default_Contract_TransactionType, encodeContractList, getTransactionType, decodeContractAccountBlock } from '~@vite/vitejs-accountBlock/utils';
 
 import { Address, AccountBlockType, Transaction, Hex, Base64, BigInt } from './type';
 
